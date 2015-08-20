@@ -11,7 +11,7 @@
 
     <artifactId>consumer</artifactId>
     <packaging>bundle</packaging>
-    <name>RedHat GPE Training :: Messaging :: Lab 6 :: A-MQ &amp; Camel Consumer</name>
+    <name>RedHat GPE Training :: Fabric :: Lab 4 :: A-MQ &amp; Camel Consumer</name>
     
     <dependencies>
         <!-- Camel -->

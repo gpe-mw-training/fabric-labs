@@ -11,7 +11,7 @@
 
     <artifactId>features</artifactId>
     <packaging>pom</packaging>
-    <name>RedHat GPE Training :: Messaging :: Lab 6 :: A-MQ &amp; Camel - Features</name>
+    <name>RedHat GPE Training :: Fabric :: Lab 4 :: A-MQ &amp; Camel - Features</name>
 
     <build>
         <!-- enable filtering of the features file -->

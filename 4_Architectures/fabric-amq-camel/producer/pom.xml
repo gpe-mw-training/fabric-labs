@@ -11,7 +11,7 @@
 
     <artifactId>producer</artifactId>
     <packaging>bundle</packaging>
-    <name>RedHat GPE Training :: Messaging :: Lab 6 :: A-MQ &amp; Camel Producer</name>
+    <name>RedHat GPE Training :: Fabric :: Lab 4 :: A-MQ &amp; Camel Producer</name>
 
     <dependencies>
         <!-- Camel -->
