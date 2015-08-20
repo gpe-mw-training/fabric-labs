@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>fabric-lab-2-project</artifactId>
+        <artifactId>fabric-lab2-project</artifactId>
         <groupId>com.redhat.gpe.training</groupId>
         <version>1.0</version>
     </parent>

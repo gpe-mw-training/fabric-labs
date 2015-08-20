@@ -9,8 +9,7 @@
   <packaging>bundle</packaging>
   <version>1.0</version>
 
-  <name>A Camel Blueprint Route</name>
-  <url>http://www.myorganization.org</url>
+  <name>Fabric Camelforecasting application</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
