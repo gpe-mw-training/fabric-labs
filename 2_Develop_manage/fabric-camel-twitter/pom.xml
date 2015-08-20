@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>fabric-lab-1-project</artifactId>
+        <artifactId>fabric-lab-2-project</artifactId>
         <groupId>com.redhat.gpe.training</groupId>
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>fabric-camel-demo</artifactId>
-    <name>RedHat GPE Training :: Fabric :: Lab :: 1 :: Fabric Camel Twitter</name>
+    <name>RedHat GPE Training :: Fabric :: Lab :: 2 :: Fabric Camel Twitter</name>
     <packaging>bundle</packaging>
 
     <properties>

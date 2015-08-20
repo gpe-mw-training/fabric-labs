@@ -13,8 +13,11 @@
     <artifactId>fabric-lab2-project</artifactId>
     <name>RedHat GPE Training :: Fabric :: Lab 2 :: Project</name>
     
+    
     <modules>
-        <module></module>
+        <module>fabric-forecasting-application</module>
+        <module>fabric-camel-rest</module>
+        <module>fabric-camel-twitter</module>
     </modules>
     
 </project>
