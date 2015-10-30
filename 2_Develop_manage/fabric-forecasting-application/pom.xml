@@ -8,7 +8,7 @@
   <packaging>bundle</packaging>
   <version>1.0</version>
 
-  <name>GPE :: Camel Weather Demo</name>
+  <name>GPE :: Exercise :: Forecasting Application</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -154,11 +154,11 @@
         <configuration>
           <instructions>
             <Bundle-SymbolicName>fabric-forecasting-application</Bundle-SymbolicName>
-            <Private-Package>com.redhat.gpe.fabric.forecasting.application.*</Private-Package>
             <Import-Package>
               groovy.lang,
               org.codehaus.groovy.reflection,
               org.codehaus.groovy.runtime.callsite,
+              org.osgi.service.blueprint;version="[1.0.0,2.0.0)",
               *
             </Import-Package>
             <DynamicImport-Package>*</DynamicImport-Package>
