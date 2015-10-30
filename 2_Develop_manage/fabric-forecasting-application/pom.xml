@@ -8,7 +8,7 @@
   <packaging>bundle</packaging>
   <version>1.0</version>
 
-  <name>Camel Blueprint Route</name>
+  <name>GPE :: Camel Weather Demo</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

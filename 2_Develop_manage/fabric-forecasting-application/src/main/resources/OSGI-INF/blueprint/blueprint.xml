@@ -5,8 +5,8 @@
        http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
        http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
 
-  <camelContext id="context-763ba57c-bf74-4c6d-b790-b603713e2c28" xmlns="http://camel.apache.org/schema/blueprint">
-  <route>
+  <camelContext id="camel-weather-demo" xmlns="http://camel.apache.org/schema/blueprint">
+  <route id="fire-event-to-weather-station">
     <from uri="timer:foo?period=10000"/>
     <log message="Collecting weather info"/>
     <setBody>
