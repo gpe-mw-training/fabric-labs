@@ -35,7 +35,7 @@
     </properties>
 
     <modules>
-        <module>1_introduction_administration</module>
+        <module>1_Introduction_administration</module>
         <module>2_Develop_manage</module>
         <module>3_Advanced_Features</module>
         <module>4_Architectures</module>
@@ -190,11 +190,21 @@
                     <artifactId>camel-maven-plugin</artifactId>
                     <version>${camel.version}</version>
                 </plugin>
+                <!-- 
+                	JBDS Problem:
+                    Duplicate bundle executions found. Please remove any explicitly defined bundle executions in your pom.xml. (Maven Project Build Lifecycle Mapping Problem)	
+                    pom.xml	/fabric-camel-rest	line 218	
+                    pom.xml	/fabric-forecasting-application	line 140	
+                    pom.xml	/fabric-camel-rest	line 218	
+                    pom.xml	/fabric-forecasting-application	line 140	
+                 -->
+                <!-- 
                 <plugin>
                     <groupId>org.apache.felix</groupId>
                     <artifactId>maven-bundle-plugin</artifactId>
                     <version>${maven-bundle-plugin.version}</version>
                 </plugin>
+                -->
                 <plugin>
                     <groupId>org.mortbay.jetty</groupId>
                     <artifactId>jetty-maven-plugin</artifactId>
