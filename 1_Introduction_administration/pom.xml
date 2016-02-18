@@ -13,7 +13,4 @@
     <name>RedHat GPE Training :: Fabric :: Lab :: 1 :: Project</name>
     <packaging>pom</packaging>
 
-    <modules>
-        <module></module>
-    </modules>
 </project>
