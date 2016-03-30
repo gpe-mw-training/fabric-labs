@@ -13,8 +13,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <!-- <camel.properties>2.15.1.redhat-620133</camel.properties> -->
+<!--     <camel.properties>2.15.1.redhat-620133</camel.properties> -->
     <camel.properties>2.15.1.redhat-621070</camel.properties>
+<!--     <camel.properties>2.15.5</camel.properties> -->
+    
+    <!-- Build Timestamp -->
+    <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
+    <timestamp>${maven.build.timestamp}</timestamp>
   </properties>
 
   <repositories>
@@ -116,6 +121,17 @@
 
   <build>
     <defaultGoal>install</defaultGoal>
+    
+    <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+            <filtering>true</filtering>
+        </resource>
+        <resource>
+            <directory>src/main/fabric8</directory>
+            <filtering>true</filtering>
+        </resource>
+    </resources>
 
     <plugins>
       <plugin>
@@ -185,6 +201,7 @@
           <profile>gpe-exercise-forecastingapplication</profile>
           <parentProfiles>feature-camel</parentProfiles>
           <features>camel-groovy camel-weather</features>
+          <version>${pom.version}</version>
         </configuration>
       </plugin>
 
