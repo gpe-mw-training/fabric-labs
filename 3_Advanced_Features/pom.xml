@@ -13,8 +13,4 @@
     <artifactId>fabric-lab3-project</artifactId>
     <name>RedHat GPE Training :: Fabric :: Lab 3 :: Project</name>
     
-    <modules>
-        <module></module>
-    </modules>
-    
 </project>
